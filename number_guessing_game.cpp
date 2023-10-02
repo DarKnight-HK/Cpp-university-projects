@@ -16,7 +16,7 @@ int main() {
         int guess, tries = 0;
 
         cout << "***************NUMBER GUESSING GAME***************\n";
-        cout << "I'm thinking of a number between 1 and 100.\n";
+        cout << "Enter a number between 1 and 100.\n";
 
         do {
             cout << "Enter your guess: ";
