@@ -14,7 +14,6 @@ int main() {
         cout << "Invalid input. Please enter a valid number for height.\n";
         cin.clear();
         cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-        return 1; // Exit with an error code
     }
 
     cout << "Enter your weight in kilograms: ";
@@ -22,7 +21,6 @@ int main() {
         cout << "Invalid input. Please enter a valid number for weight.\n";
         cin.clear();
         cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-        return 1; // Exit with an error code
     }
 
     if (height <= 0 || weight <= 0) {
